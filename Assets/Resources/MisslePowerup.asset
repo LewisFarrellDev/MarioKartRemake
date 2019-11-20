@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3807b5d9463ef0342887cfbb04debb91, type: 3}
+  m_Name: MisslePowerup
+  m_EditorClassIdentifier: 
+  powerupSprite: {fileID: 21300000, guid: 4794f19bd90777f41a139274167775d7, type: 3}
+  numUses: 3
+  requiresNetwork: 1
+  misslePrefab: {fileID: 1545825787797626, guid: c3304606e51e4d444ad3e5dd04b83265,
+    type: 2}

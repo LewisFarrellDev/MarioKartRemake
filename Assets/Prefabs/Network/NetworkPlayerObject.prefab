@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1602738318748450}
+  m_IsPrefabAsset: 1
+--- !u!1 &1602738318748450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4743492634316776}
+  - component: {fileID: 114769727524798986}
+  - component: {fileID: 114195514289031516}
+  m_Layer: 0
+  m_Name: NetworkPlayerObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4743492634316776
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1602738318748450}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.3816366, y: 3.5116317, z: 0.6372539}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114195514289031516
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1602738318748450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0ce3a88f56c6ac42ba34f5d5a87ce7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerVehiclePrefab: {fileID: 1794989129920058, guid: 03798f3ec6f7ab54ca9b1ce93397120f,
+    type: 2}
+  colours:
+    redChannel: {r: 0, g: 0, b: 0, a: 0}
+    greenChannel: {r: 0, g: 0, b: 0, a: 0}
+    blueChannel: {r: 0, g: 0, b: 0, a: 0}
+    alphaChannel: {r: 0, g: 0, b: 0, a: 0}
+  spoilerObject:
+  - {fileID: 11400000, guid: 7488d92837c11304093f320e53bf31e4, type: 2}
+  - {fileID: 11400000, guid: dfc63a454fc49514e81313f1221b3e32, type: 2}
+  - {fileID: 11400000, guid: ec1b87be3ca0ae445997ab06e97a8b27, type: 2}
+  wheelsObject:
+  - {fileID: 11400000, guid: 630efadb587a48844a6980e8f302a103, type: 2}
+  - {fileID: 11400000, guid: 67b902dc7178687428bee532b940491a, type: 2}
+  - {fileID: 11400000, guid: 1f948a29d71a5c64bb682eb0e0c64293, type: 2}
+  bodyObject:
+  - {fileID: 11400000, guid: 83c07da12cec1e949b8263248731f5d2, type: 2}
+  - {fileID: 11400000, guid: ecab657c35031d2428163657eca9226a, type: 2}
+  - {fileID: 11400000, guid: 98d2d2e83be44324cab51ad682cf6fd2, type: 2}
+  characterObject:
+  - {fileID: 11400000, guid: 4c2e04f6e330658458fbb4766dec4c77, type: 2}
+  - {fileID: 11400000, guid: 8a051c4c65618954c83de0de05fb4c13, type: 2}
+  - {fileID: 11400000, guid: f6519bb13e97470438b3ec41a67a143a, type: 2}
+  - {fileID: 11400000, guid: 051bbdce5e23ff64d8e4794fec88205e, type: 2}
+  - {fileID: 11400000, guid: f0729af04d1f8f24ca4b11f21a0e8362, type: 2}
+  wheelID: 0
+  spoilerID: 0
+  bodyID: 0
+  characterID: 0
+--- !u!114 &114769727524798986
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1602738318748450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 44
+    i1: 106
+    i2: 232
+    i3: 188
+    i4: 88
+    i5: 177
+    i6: 211
+    i7: 20
+    i8: 202
+    i9: 129
+    i10: 248
+    i11: 158
+    i12: 218
+    i13: 174
+    i14: 67
+    i15: 150
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

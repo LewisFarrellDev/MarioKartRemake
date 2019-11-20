@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6858cddc67336a4b9fedb341962ae41, type: 3}
+  m_Name: Spoiler_3
+  m_EditorClassIdentifier: 
+  partName: Default Name
+  partSprite: {fileID: 21300000, guid: bb0f02d738a9287489ca92dda9786095, type: 3}
+  partObjectPrefab: {fileID: 1055053654180402, guid: 21f1697215114cd4a91c7baf961e540f,
+    type: 2}
+  colour:
+    redChannel: {r: 1, g: 0, b: 0.86603355, a: 0}
+    greenChannel: {r: 0.9150943, g: 0.09927912, b: 0.09927912, a: 0}
+    blueChannel: {r: 1, g: 0.91456765, b: 0, a: 0}
+    alphaChannel: {r: 1, g: 1, b: 1, a: 0}
+  speed: 20
+  acceleration: 3
+  handling: 0.5
